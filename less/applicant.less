@@ -1,0 +1,34 @@
+.applicants {
+}
+.applicant {
+    background-color: #FFFFFF;
+    border: 10px solid #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #9A9A9A;
+
+    &__experience, &__age, &__last-work-place, &__wanted-work, &__wanted-salary {
+      padding-left: 5px;
+    }
+}
+
+.applicant__photo {
+  display: inline-block;
+    & > img {
+        width: 50px;
+        height: 50px;
+        border: 1px solid #FFFFFF;
+        border-radius: 25px;
+    }
+    float: right;
+}
+
+.applicant__name {
+  display: inline-block;
+  width: 80%;
+  color: black;
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 5px
+}
